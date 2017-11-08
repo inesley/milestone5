@@ -1,0 +1,64 @@
+#contact-me {
+  max-width: 1080px;
+  margin: 25px;
+}
+
+form {
+  margin: 50px 0;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+}
+
+label {
+  flex-grow: 1;
+  font-size: 12px;
+  margin: 15px 0px;
+}
+
+.row label:first-child {
+  margin-right: 20px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 6px 0 4px;
+  border: 1px solid #ccc;
+  background: #fafafa;
+  color: #000;
+  font-family: sans-serif;
+  font-size: 12px;
+  box-sizing: border-box;
+  border-radius: 2px;
+}
+
+input:focus,
+textarea:focus {
+  outline: none;
+  border-bottom: 1px solid #666;
+}
+
+.error {
+  border: 1px solid #f5004e;
+  color: #f5004e;
+}
+
+.submit {
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 0;
+}
+
+@media (min-width: 1080px) {
+  #contact-me {
+    margin: 25px auto;
+  }
+}

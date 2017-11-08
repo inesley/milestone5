@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/contact.css">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:200,200i,400,400i,600,600i,800,800i" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img alt="logo" src="images/logo1.png">
+    </div>
+    <nav>
+      <li>
+        <a class="link" href="aboutme.html">About Me</a>
+        <a class="link" href="work.html">Work</a>
+        <a class="link active" href="contact.html">Contact</a>
+      </li>
+    </nav>
+  </header>
+  <section id="contact-me">
+  	<h2 class="title">Ines Argueta Ley</h2>
+  	<p>ines.argueta.ley@gmail.com</p>
+    <p>USA: 818.554.2593</p>
+    <p>LUX: 621799512</p>
+
+    <form id="message-form">
+      <div class="field">
+        <span>Name<sup>*</sup></span>
+        <div class="row">
+          <label>
+            <input class="data" type="text" id="first-name" placeholder="Enter first name">
+            First Name
+          </label>
+          <label>
+            <input class="data" type="text" id="last-name" placeholder="Enter last name">
+            Last Name
+          </label>
+        </div>
+      </div>
+      <div class="field">
+        <label>
+          Email Address<sup>*</sup>
+          <input class="data" type="email" id="email" placeholder="Enter your email">
+        </label>
+      </div>
+      <div class="field">
+        <label>
+          Subject<sup>*</sup>
+          <input class="data" type="text" id="subject" placeholder="Enter a subject">
+        </label>
+      </div>
+      <div class="field">
+        <label>
+          Message<sup>*</sup>
+          <textarea class="data" rows="4" type="text" id="message" placeholder="Enter your message..."></textarea>
+        </label>
+      </div>
+
+      <button class="button submit">Submit</button>
+    </form>
+  </section>
+  <footer>
+    <strong>ALL WORK © INES ARGUETA-LEY</strong>
+  </footer>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/contact.js"></script>
+</body>
+</html>
