@@ -43,8 +43,17 @@
   transition: transform 0.25s;
 }
 
+.project:hover {
+  text-decoration: none;
+}
+
 .project:hover .project-image {
   filter: grayscale(0);
+}
+
+
+.project:hover .project-link {
+  color: #f5004e;
 }
 
 .project:hover .project-link:after {
